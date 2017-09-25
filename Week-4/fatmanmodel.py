@@ -47,7 +47,12 @@ def extract_color(G):
     arr_color = []
     for node in G.nodes():
         if G.node[node]['type'] == 'person':
-            arr_color.append('blue')
+            if G.node[node]['name'] == 15:
+                arr_color.append('green')
+            elif G.node[node]['name'] == 40:
+                arr_color.append('yellow')
+            else:
+                arr_color.append('blue')
         else:
             arr_color.append('red')
     return arr_color

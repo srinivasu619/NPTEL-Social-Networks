@@ -1,0 +1,51 @@
+Epidemics
+
+How can we model the contiguous diseases?
+
+finding epidemic
+
+- No choice 
+- Invisible Process
+	- Spreading of disease case.(More of the random proccess)
+
+Entities
+	Pathogen
+	Network(dense or sparse)
+
+Simplest Network 
+	In form of tree
+	
+(BRANCHING MODEL)
+
+First network model
+	edge with prob of 0.5
+
+
+Looking at many Levels
+	if probabolity of infecting the neighbours is p
+	then the expected numbers of the infected members
+	is (p.k)
+
+	for next level 
+		EQN. would be:
+		pk+pk+......upto pk times = (p.k)^2
+	
+	and so for the next levels
+
+How Probablity and No. of neighbours determine ?
+	R0(BASIC REPRODUCTIVE NUMBER) = p.k
+	R0 < 1
+		less than one secondary infection
+	R0 > 1
+		disease become epidemic
+
+	R0 has knife-edge property
+
+Realistic Model for the Observation
+------------------------------------
+
+	SIR Epidemic Model(Susceptible,Infected,Recovered/Removed)
+		- terminal illness
+		- non-terminal illness
+
+ 
